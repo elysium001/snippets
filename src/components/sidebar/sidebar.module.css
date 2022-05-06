@@ -1,0 +1,37 @@
+.container {
+  box-sizing: border-box;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  background-color: #230674;
+  width: 300px;
+  left: -300px;
+  top: 0;
+  bottom: 0;
+}
+
+.open {
+  left: 0;
+}
+
+.closeBtn {
+  display: block;
+  margin-left: auto;
+}
+
+.list {
+  display: flex;
+  flex-flow: column;
+  list-style: none;
+  padding-left: 0;
+}
+
+.listItem {
+  /* padding: 16px; */
+}
+
+.listItem > a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 16px;
+}
